@@ -585,7 +585,9 @@ hr {
   }
 
   .video {
-    height: 200px;
+    height: 400px;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .newsletter-container {
@@ -595,6 +597,96 @@ hr {
   .newsletter-img img {
     height: 300px;
     width: 100%;
+  }
+
+  .skewtext {
+    padding: 15px 25px;
+    bottom: 18%;
+    right: 5%;
+  }
+  .skewtext p {
+    font-size: 1rem;
+  }
+  .skewtext h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 592px) and (max-width: 992px) {
+  .nav-options {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+    font-size: 2rem;
+  }
+  .travel-input {
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  input,
+  select {
+    width: 100%;
+  }
+
+  .explore-your-travel {
+    border-radius: 0;
+  }
+
+  .travel-input .btn-primary {
+    width: 100%;
+  }
+
+  .explore-container {
+    padding: 0rem 2rem;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .row-2 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .row-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .why-us-container-2 {
+    max-width: 100%;
+  }
+
+  .video-container {
+    grid-template-columns: 1fr;
+  }
+
+  .video {
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .newsletter-container {
+    grid-template-columns: 1.2fr 0.8fr;
+  }
+  .newsletter-img {
+    height: 100%;
+  }
+
+  .newsletter-img img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
   }
 
   .skewtext {
